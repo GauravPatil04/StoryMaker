@@ -215,7 +215,7 @@ You should explain whole story in simple english so that any age group can read 
 # --- Main Streamlit Interface Function ---
 def main():
     # Display SGU Logo
-    st.image("https://www.sanjayghodawatuniversity.ac.in/images/logo/logo-blue.png", width=300)
+    st.image("images/SGU_Logo.jpg", width=550)
     # App Title
     st.title("📖 SGU Story Weaver ✨")
     st.markdown("Weave a tale set right here on the **Sanjay Ghodawat University** campus!")
@@ -296,9 +296,7 @@ def display_footer():
         <div style='text-align: center; font-size: 0.85em; color: #777;'>
             <p>Powered by Google Gemini | Built with Streamlit</p>
             <p>
-               <a href="https://ai.google.dev/" target="_blank" style="color: #777;">Google AI</a> |
-               <a href="https://streamlit.io/" target="_blank" style="color: #777;">Streamlit</a> |
-               <a href="https://github.com/your-github-username/sgu-story-maker" target="_blank" style="color: #777;">View on GitHub</a> </p>
+               <a href="https://github.com/GauravPatil04/StoryMaker" target="_blank" style="color: black;">View on GitHub</a> </p>
         </div>
         """
     st.markdown(footer_html, unsafe_allow_html=True)
