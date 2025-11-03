@@ -4,6 +4,7 @@ A simple web application that uses Google's Gemini AI to generate short stories 
 
 The app takes a user's story idea and combines it with known details about the SGU campus (like the Central Library, School of Technology, Food Court, Stadium, etc.) to prompt the Gemini AI to write a unique, relevant story.
 
+> ###  ⚠️🚨 The API key has been removed due to usage limits, so the project won't function as-is. Please refer to the Setup section to obtain a new key and deploy your own instance. ⚠️🚨**
 
 
 ---
